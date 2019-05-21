@@ -1,0 +1,19 @@
+<div class="pairings">
+  <button class="pairings__button" (click)="resetAvailability()"><fa name="undo"></fa> Reset</button>
+  <!-- <button class="pairings__button" (click)="copyTroops()"><fa name="copy"></fa> Copy</button> -->
+  <div *ngIf="myHeroes && heroes && factions">
+    <div *ngFor="let faction of factions">
+      <h2 class="pairings__faction-name"><img class="pairings__faction-icon" [src]="faction.icon">{{faction.fullName}}</h2>
+      <lgp-hero-avatar
+        class="pairings__hero-object"
+        *ngFor="let hero of heroes | lgpFaction:faction.key | lgpMyHero:myHeroes"
+        (click)="toggleAvailability(hero)"
+        [hero]="hero"
+        [showFactionIcons]="false"
+        [size]="'small'"
+        [showDisabled]="isUnavailable(hero)"></lgp-hero-avatar>
+    </div>
+  </div>
+
+
+</div>

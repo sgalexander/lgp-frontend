@@ -1,0 +1,99 @@
+.hero-avatar{
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.hero-avatar__icon{
+  border-radius: 100%;
+  margin: 0 auto;
+  overflow:hidden;
+  display: block;
+}
+
+.hero-avatar--disabled{
+  .hero-avatar__icon{
+    filter: grayscale(100%);
+  }
+  .hero-avatar__factionicon{
+    filter: grayscale(100%);
+  }
+  .hero-avatar__nameplate{
+    color: silver;
+  }
+}
+
+.hero-avatar__nameplate{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.hero-avatar--small{
+  width: 55px;
+  .hero-avatar__icon{
+    width: 40px;
+    height: 40px;
+  }
+  .hero-avatar__nameplate{
+    font-size: 12px;
+  }
+}
+
+.hero-avatar--medium{
+  width: 75px;
+  .hero-avatar__icon{
+    width: 55px;
+    height: 55px;
+  }
+  .hero-avatar__nameplate{
+    font-size: 14px;
+  }
+}
+
+.hero-avatar--large{
+  width: 100px;
+  .hero-avatar__icon{
+    width: 80px;
+    height: 80px;
+  }
+  .hero-avatar__nameplate{
+    font-size: 16px;
+  }
+}
+
+
+
+.hero-avatar__nameplate--large{
+  font-size: 16px;
+}
+
+.hero-avatar__factionicon{
+  width: 15px;
+  height: 15px;
+}
+
+.hero-avatar__icon--r{
+  background: silver;
+  background-size: 1800% 1800%;
+}
+
+.hero-avatar__icon--sr{
+  background: gold;
+  background-size: 1800% 1800%;
+}
+
+.hero-avatar__icon--ssr{
+  background: linear-gradient(309deg,  #3dd411, #f7c600, #42c6db, #ffffff, #42c6db, #f7c600, #3dd411);
+  background-size: 300% 300%;
+  animation: Shimmer 5s ease infinite;
+}
+
+.hero-avatar__icon--icondisabled{
+  filter: grayscale(100%);
+}
+
+@keyframes Shimmer { 
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}

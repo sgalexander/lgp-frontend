@@ -1,0 +1,28 @@
+@import '../variables';
+
+.pairings{
+ @include main-container();
+}
+
+.pairings__faction-icon{
+  display: inline-block;
+  height: 25px;
+  vertical-align: sub;
+  margin-right: 3px;
+}
+
+.pairings__hero-object{
+  display: inline-block;
+}
+
+.pairings__button{
+  color: black;
+  background-color: $color3;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 10px;
+  &:hover{
+    background-color: $color4;
+  }
+}

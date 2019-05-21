@@ -1,0 +1,322 @@
+[{
+  "name": "Aaron",
+  "icon": "/assets/icons/aaron.png",
+  "quality": "R",
+  "glory": true
+},{
+  "name": "Almeda",
+  "icon": "/assets/icons/almeda.png",
+  "quality": "SR",
+  "glory": true,
+  "protagonists": true
+},{
+  "name": "Altemuller",
+  "icon": "/assets/icons/altemuller.png",
+  "quality": "SSR",
+  "dark": true,
+  "empire": true,
+  "strategic": true
+},
+{
+  "name": "Angelina",
+  "icon": "/assets/icons/angelina.png",
+  "quality": "SSR",
+  "princess": true,
+  "legends": true,
+  "meteor": true
+},
+{
+  "name": "Anna",
+  "icon": "/assets/icons/anna.png",
+  "quality": "R",
+  "empire": true,
+  "princess": true
+},
+{
+  "name": "Bernhardt",
+  "icon": "/assets/icons/bernhardt.png",
+  "quality": "SSR",
+  "empire": true,
+  "dark": true
+},{
+  "name": "Bozel",
+  "icon": "/assets/icons/bozel.png",
+  "quality": "SSR",
+  "dark": true
+},{
+  "name": "Cherie",
+  "icon": "/assets/icons/cherie.png",
+  "quality": "SSR",
+  "glory": true,
+  "meteor": true,
+  "princess": true
+},{
+  "name": "Chris",
+  "icon": "/assets/icons/chris.png",
+  "quality": "SR",
+  "glory": true,
+  "princess": true,
+  "protagonists": true
+},{
+  "name": "Dieharte",
+  "icon": "/assets/icons/dieharte.png",
+  "quality": "SSR",
+  "protagonists": true,
+  "meteor": true,
+  "origins": true
+},{
+  "name": "Dios",
+  "icon": "/assets/icons/dios.png",
+  "quality": "R",
+  "origins": true,
+  "princess": true
+},{
+  "name": "Egbert",
+  "icon": "/assets/icons/egbert.png",
+  "quality": "SR",
+  "empire": true,
+  "strategic": true,
+  "dark": true
+},{
+  "name": "Elwin",
+  "icon": "/assets/icons/elwin.png",
+  "quality": "SSR",
+  "empire": true,
+  "glory": true,
+  "protagonists": true
+},{
+  "name": "Emerick",
+  "icon": "/assets/icons/emerick.png",
+  "quality": "SR",
+  "empire": true,
+  "strategic": true
+},{
+  "name": "Feraquea",
+  "icon": "/assets/icons/feraquea.png",
+  "quality": "SR",
+  "dark": true,
+  "meteor": true
+},{
+  "name": "Freya",
+  "icon": "/assets/icons/freya.png",
+  "quality": "SR",
+  "origins": true,
+  "princess": true
+},{
+  "name": "Gerold/Leyla",
+  "icon": "/assets/icons/gerold_and_leyla.png",
+  "quality": "SSR",
+  "origins": true
+},{
+  "name": "Grenier",
+  "icon": "/assets/icons/grenier.png",
+  "quality": "SR",
+  "glory": true
+},{
+  "name": "Hein",
+  "icon": "/assets/icons/hein.png",
+  "quality": "SR",
+  "empire": true,
+  "glory": true
+},{
+  "name": "Imelda",
+  "icon": "/assets/icons/imelda.png",
+  "quality": "SR",
+  "empire": true,
+  "strategic": true
+},{
+  "name": "Jessica",
+  "icon": "/assets/icons/jessica.png",
+  "quality": "R",
+  "origins": true,
+  "glory": true
+},{
+  "name": "Jugler",
+  "icon": "/assets/icons/jugler.png",
+  "quality": "SSR",
+  "origins": true
+},{
+  "name": "Keith",
+  "icon": "/assets/icons/keith.png",
+  "quality": "R",
+  "glory": true
+},{
+  "name": "Kirikaze",
+  "icon": "/assets/icons/kirikaze.png",
+  "quality": "SR",
+  "origins": true,
+  "meteor": true
+},{
+  "name": "Laird",
+  "icon": "/assets/icons/laird.png",
+  "quality": "R",
+  "empire": true,
+  "meteor": true
+},{
+  "name": "Lana",
+  "icon": "/assets/icons/lana.png",
+  "quality": "SSR",
+  "dark": true,
+  "princess": true
+},{
+  "name": "Lance",
+  "icon": "/assets/icons/lance.png",
+  "quality": "SR",
+  "empire": true,
+  "strategic": true
+},{
+  "name": "Landius",
+  "icon": "/assets/icons/landius.png",
+  "quality": "SSR",
+  "legends": true,
+  "protagonists": true
+},{
+  "name": "Lanford",
+  "icon": "/assets/icons/lanford.png",
+  "quality": "SSR",
+  "legends": true,
+  "strategic": true
+},{
+  "name": "Ledin",
+  "icon": "/assets/icons/ledin.png",
+  "quality": "SSR",
+  "glory": true,
+  "protagonists": true
+},
+{
+  "name": "Leon",
+  "icon": "/assets/icons/leon.png",
+  "quality": "SSR",
+  "empire": true,
+  "strategic": true
+},{
+  "name": "Lester",
+  "icon": "/assets/icons/lester.png",
+  "quality": "R",
+  "glory": true,
+  "meteor": true
+},{
+  "name": "Leticia",
+  "icon": "/assets/icons/leticia.png",
+  "quality": "R",
+  "empire": true,
+  "strategic": true
+},{
+  "name": "Lewin",
+  "icon": "/assets/icons/lewin.png",
+  "quality": "R",
+  "origins": true
+},{
+  "name": "Liana",
+  "icon": "/assets/icons/liana.png",
+  "quality": "SSR",
+  "glory": true,
+  "princess": true,
+  "protagonists": true
+},{
+  "name": "Liffany",
+  "icon": "/assets/icons/liffany.png",
+  "quality": "SR",
+  "origins": true,
+  "princess": true
+},{
+  "name": "Listell",
+  "icon": "/assets/icons/listell.png",
+  "quality": "SSR",
+  "legends": true,
+  "dark": true
+},{
+  "name": "Luna",
+  "icon": "/assets/icons/luna.png",
+  "quality": "SSR",
+  "origins": true,
+  "princess": true,
+  "strategic": true
+},{
+  "name": "Matthew",
+  "icon": "/assets/icons/matthew.png",
+  "quality": "SR",
+  "glory": true,
+  "protagonists": true
+},{
+  "name": "Narm",
+  "icon": "/assets/icons/narm.png",
+  "quality": "SR",
+  "glory": true,
+  "meteor": true,
+  "protagonists": true
+},{
+  "name": "Pierre",
+  "icon": "/assets/icons/pierre.png",
+  "quality": "R",
+  "meteor": true,
+  "origins": true
+},{
+  "name": "Rachel",
+  "icon": "/assets/icons/rachel.png",
+  "quality": "SSR",
+  "legends": true,
+  "protagonists": true
+},{
+  "name": "Rohga",
+  "icon": "/assets/icons/rohga.png",
+  "quality": "R",
+  "empire": true,
+  "meteor": true
+},{
+  "name": "Scott",
+  "icon": "/assets/icons/scott.png",
+  "quality": "R",
+  "glory": true,
+  "strategic": true
+},{
+  "name": "Shelfaniel",
+  "icon": "/assets/icons/shelfaniel.png",
+  "quality": "SSR",
+  "legends": true,
+  "princess": true
+},{
+  "name": "Silverwolf",
+  "icon": "/assets/icons/silverwolf.png",
+  "quality": "SR",
+  "origins": true,
+  "meteor": true
+},{
+  "name": "Sonya",
+  "icon": "/assets/icons/sonya.png",
+  "quality": "SR",
+  "dark": true,
+  "empire": true,
+  "princess": true
+},{
+  "name": "Sophia",
+  "icon": "/assets/icons/sophia.png",
+  "quality": "SR",
+  "origins": true,
+  "princess": true
+},{
+  "name": "Tiaris",
+  "icon": "/assets/icons/tiaris.png",
+  "quality": "SSR",
+  "protagonists": true,
+  "origins": true,
+  "princess": true
+},{
+  "name": "Vargas",
+  "icon": "/assets/icons/vargas.png",
+  "quality": "SR",
+  "strategic": true,
+  "empire": true
+},{
+  "name": "Varna",
+  "icon": "/assets/icons/varna.png",
+  "quality": "SR",
+  "empire": true,
+  "dark": true
+},{
+  "name": "Zerida",
+  "icon": "/assets/icons/zerida.png",
+  "quality": "SSR",
+  "dark": true,
+  "meteor": true
+}]

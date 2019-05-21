@@ -1,0 +1,24 @@
+// COLORS
+$color1: #CC0000; //Dark color, can have white text on it
+$color2: #DA592E;
+$color3: #ECBA55;
+$color4: #8AA38B;
+$color5: #35484C; //Dark color, can have white text on it;
+
+// WIDTHS
+$container-max-width: 1000px;
+
+// MIXINS
+
+@mixin main-container() {
+  color: black;
+  margin: 0 auto;
+  max-width: $container-max-width;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+
+}
+
+// We have FontAwesome, from https://www.npmjs.com/package/angular-font-awesome

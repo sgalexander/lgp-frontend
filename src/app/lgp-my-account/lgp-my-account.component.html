@@ -1,0 +1,10 @@
+<div class="my-account">
+  <div *ngIf="heroes && myHeroes">
+    <lgp-hero-avatar *ngFor="let hero of heroes"
+      class="my-account__hero"
+      (click)="toggleHero(hero)"
+      [hero]="hero"
+      [showFactionIcons]="true"
+      [showDisabled]="!heroOwned(hero.name)"></lgp-hero-avatar>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+[{
+  "key": "dark",
+  "fullName": "Dark Reincarnation",
+  "icon": "/assets/icons/factions/dark.png"
+},{
+  "key": "empire",
+  "fullName": "Empire's Honor",
+  "icon": "/assets/icons/factions/empire.png"
+},{
+  "key": "glory",
+  "fullName": "Legion of Glory",
+  "icon": "/assets/icons/factions/glory.png"
+},{
+  "key": "meteor",
+  "fullName": "Meteor Strike",
+  "icon": "/assets/icons/factions/meteor.png"
+},{
+  "key": "legends",
+  "fullName": "Yeless Legends",
+  "icon": "/assets/icons/factions/legends.png"
+},{
+  "key": "origins",
+  "fullName": "Origins of Light",
+  "icon": "/assets/icons/factions/origins.png"
+},{
+  "key": "princess",
+  "fullName": "Princess Alliance",
+  "icon": "/assets/icons/factions/princess.png"
+},{
+  "key": "protagonists",
+  "fullName": "Protagonists",
+  "icon": "/assets/icons/factions/protagonists.png"
+},{
+  "key": "strategic",
+  "fullName": "Strategic Masters",
+  "icon": "/assets/icons/factions/strategic.png"
+}]

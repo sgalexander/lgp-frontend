@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app__body">
+  <h1 class="main-title">
+    <a [routerLink]="homeLink" class="main-title__link">
+      <div><img class="main-title__logo" src="/assets/seekers-logo.png"></div>
+      <div class="main-title__link">Guild Tools</div>
+    </a>
+  </h1>
+  <div class="main-top-nav">
+    <a [routerLink]="homeLink" class="main-top-nav__link" routerLinkActive="main-top-nav__link--active">Home</a>
+    <a [routerLink]="guildWarLink" class="main-top-nav__link" routerLinkActive="main-top-nav__link--active">Guild War</a>
+    <a [routerLink]="accountLink" class="main-top-nav__link" routerLinkActive="main-top-nav__link--active">My Troops</a>
+    <!-- <a [routerLink]="guildLink">View Guild</a> -->
+  </div>
+  <router-outlet></router-outlet>
+</div>
+

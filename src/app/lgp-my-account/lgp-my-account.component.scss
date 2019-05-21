@@ -1,0 +1,9 @@
+@import '../variables';
+
+.my-account{
+ @include main-container();
+}
+
+.my-account__hero{
+  display: inline-block;
+}
