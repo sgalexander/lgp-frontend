@@ -13,6 +13,7 @@ export class LgpPairingsComponent implements OnInit {
   public myHeroes: any;
   public heroes: LgpHeroObject[];
   public factions: any;
+  public showUnavailable: boolean = true;
   constructor(
     private accountService: AccountService
   ) { }

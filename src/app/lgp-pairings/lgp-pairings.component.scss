@@ -25,4 +25,14 @@
   &:hover{
     background-color: $color4;
   }
+  &.inactive{
+    background-color: $color4;
+    &:hover{
+      background-color: $color3;
+      opacity: 0.8;
+    }
+  }
+}
+.no-show{
+  display: none
 }
