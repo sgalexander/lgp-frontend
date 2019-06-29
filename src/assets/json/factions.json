@@ -1,37 +1,51 @@
 [{
   "key": "dark",
   "fullName": "Dark Reincarnation",
-  "icon": "/assets/icons/factions/dark.png"
+  "icon": "/assets/icons/factions/dark.png",
+  "hasTower": true
 },{
   "key": "empire",
   "fullName": "Empire's Honor",
-  "icon": "/assets/icons/factions/empire.png"
+  "icon": "/assets/icons/factions/empire.png",
+  "hasTower": true
 },{
   "key": "glory",
   "fullName": "Legion of Glory",
-  "icon": "/assets/icons/factions/glory.png"
+  "icon": "/assets/icons/factions/glory.png",
+  "hasTower": true
 },{
   "key": "meteor",
   "fullName": "Meteor Strike",
-  "icon": "/assets/icons/factions/meteor.png"
+  "icon": "/assets/icons/factions/meteor.png",
+  "hasTower": true
 },{
   "key": "legends",
   "fullName": "Yeless Legends",
-  "icon": "/assets/icons/factions/legends.png"
+  "icon": "/assets/icons/factions/legends.png",
+  "hasTower": false
 },{
   "key": "origins",
   "fullName": "Origins of Light",
-  "icon": "/assets/icons/factions/origins.png"
+  "icon": "/assets/icons/factions/origins.png",
+  "hasTower": true
 },{
   "key": "princess",
   "fullName": "Princess Alliance",
-  "icon": "/assets/icons/factions/princess.png"
+  "icon": "/assets/icons/factions/princess.png",
+  "hasTower": true
 },{
   "key": "protagonists",
   "fullName": "Protagonists",
-  "icon": "/assets/icons/factions/protagonists.png"
+  "icon": "/assets/icons/factions/protagonists.png",
+  "hasTower": true
 },{
   "key": "strategic",
   "fullName": "Strategic Masters",
-  "icon": "/assets/icons/factions/strategic.png"
+  "icon": "/assets/icons/factions/strategic.png",
+  "hasTower": true
+},{
+  "key": "time",
+  "fullName": "Heroes of Time",
+  "icon": "/assets/icons/factions/time.png",
+  "hasTower": false
 }]

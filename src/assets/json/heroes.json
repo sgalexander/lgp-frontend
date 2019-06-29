@@ -2,20 +2,24 @@
   "name": "Aaron",
   "icon": "/assets/icons/aaron.png",
   "quality": "R",
-  "glory": true
+  "glory": true,
+  "isTank": true
 },{
   "name": "Almeda",
   "icon": "/assets/icons/almeda.png",
   "quality": "SR",
   "glory": true,
-  "protagonists": true
+  "protagonists": true,
+  "isHealer": true
 },{
   "name": "Altemuller",
   "icon": "/assets/icons/altemuller.png",
   "quality": "SSR",
   "dark": true,
   "empire": true,
-  "strategic": true
+  "strategic": true,
+  "isTank": true,
+  "hasBuff": "strategic"
 },
 {
   "name": "Angelina",
@@ -30,19 +34,23 @@
   "icon": "/assets/icons/anna.png",
   "quality": "R",
   "empire": true,
-  "princess": true
+  "princess": true,
+  "isHealer": true
 },
 {
   "name": "Bernhardt",
   "icon": "/assets/icons/bernhardt.png",
   "quality": "SSR",
   "empire": true,
-  "dark": true
+  "dark": true,
+  "isTank": true,
+  "hasBuff": "empire"
 },{
   "name": "Bozel",
   "icon": "/assets/icons/bozel.png",
   "quality": "SSR",
-  "dark": true
+  "dark": true,
+  "hasBuff": "dark"
 },{
   "name": "Cherie",
   "icon": "/assets/icons/cherie.png",
@@ -63,7 +71,8 @@
   "quality": "SSR",
   "protagonists": true,
   "meteor": true,
-  "origins": true
+  "origins": true,
+  "hasBuff": "origins"
 },{
   "name": "Dios",
   "icon": "/assets/icons/dios.png",
@@ -83,13 +92,22 @@
   "quality": "SSR",
   "empire": true,
   "glory": true,
-  "protagonists": true
+  "protagonists": true,
+  "hasBuff": "glory"
 },{
   "name": "Emerick",
   "icon": "/assets/icons/emerick.png",
   "quality": "SR",
   "empire": true,
   "strategic": true
+},{
+  "name": "Estelle",
+  "icon": "/assets/icons/estelle.png",
+  "quality": "SSR",
+  "time": true,
+  "protagonists": true,
+  "glory": true,
+  "isTank": true
 },{
   "name": "Feraquea",
   "icon": "/assets/icons/feraquea.png",
@@ -101,7 +119,9 @@
   "icon": "/assets/icons/freya.png",
   "quality": "SR",
   "origins": true,
-  "princess": true
+  "princess": true,
+  "isTank": true,
+  "hasBuff": "origins"
 },{
   "name": "Gerold/Leyla",
   "icon": "/assets/icons/gerold_and_leyla.png",
@@ -111,7 +131,9 @@
   "name": "Grenier",
   "icon": "/assets/icons/grenier.png",
   "quality": "SR",
-  "glory": true
+  "glory": true,
+  "isTank": true,
+  "hasBuff": "glory"
 },{
   "name": "Hein",
   "icon": "/assets/icons/hein.png",
@@ -123,7 +145,8 @@
   "icon": "/assets/icons/imelda.png",
   "quality": "SR",
   "empire": true,
-  "strategic": true
+  "strategic": true,
+  "isHealer": true
 },{
   "name": "Jessica",
   "icon": "/assets/icons/jessica.png",
@@ -131,10 +154,20 @@
   "origins": true,
   "glory": true
 },{
+  "name": "Joshua",
+  "icon": "/assets/icons/joshua.png",
+  "quality": "SSR",
+  "meteor": true,
+  "princess": true,
+  "time": true,
+  "hasBuff": "time"
+},{
   "name": "Jugler",
   "icon": "/assets/icons/jugler.png",
   "quality": "SSR",
-  "origins": true
+  "origins": true,
+  "isTank": true,
+  "hasBuff": "origins"
 },{
   "name": "Keith",
   "icon": "/assets/icons/keith.png",
@@ -146,6 +179,14 @@
   "quality": "SR",
   "origins": true,
   "meteor": true
+},{
+  "name": "Klose",
+  "icon": "/assets/icons/klose.png",
+  "quality": "SR",
+  "time": true,
+  "princess": true,
+  "legends": true,
+  "isHealer": true
 },{
   "name": "Laird",
   "icon": "/assets/icons/laird.png",
@@ -163,32 +204,40 @@
   "icon": "/assets/icons/lance.png",
   "quality": "SR",
   "empire": true,
-  "strategic": true
+  "strategic": true,
+  "hasBuff": "empire"
 },{
   "name": "Landius",
   "icon": "/assets/icons/landius.png",
   "quality": "SSR",
   "legends": true,
-  "protagonists": true
+  "protagonists": true,
+  "isTank": true,
+  "hasBuff": "legends"
 },{
   "name": "Lanford",
   "icon": "/assets/icons/lanford.png",
   "quality": "SSR",
   "legends": true,
-  "strategic": true
+  "strategic": true,
+  "hasBuff": "strategic"
 },{
   "name": "Ledin",
   "icon": "/assets/icons/ledin.png",
   "quality": "SSR",
   "glory": true,
-  "protagonists": true
+  "protagonists": true,
+  "isTank": true,
+  "hasBuff": "glory"
 },
 {
   "name": "Leon",
   "icon": "/assets/icons/leon.png",
   "quality": "SSR",
   "empire": true,
-  "strategic": true
+  "strategic": true,
+  "isTank": true,
+  "hasBuff": "empire"
 },{
   "name": "Lester",
   "icon": "/assets/icons/lester.png",
@@ -212,7 +261,8 @@
   "quality": "SSR",
   "glory": true,
   "princess": true,
-  "protagonists": true
+  "protagonists": true,
+  "isHealer": true
 },{
   "name": "Liffany",
   "icon": "/assets/icons/liffany.png",
@@ -231,13 +281,15 @@
   "quality": "SSR",
   "origins": true,
   "princess": true,
-  "strategic": true
+  "strategic": true,
+  "hasBuff": "princess"
 },{
   "name": "Matthew",
   "icon": "/assets/icons/matthew.png",
   "quality": "SR",
   "glory": true,
-  "protagonists": true
+  "protagonists": true,
+  "hasBuff": "progagonists"
 },{
   "name": "Narm",
   "icon": "/assets/icons/narm.png",
@@ -274,7 +326,8 @@
   "icon": "/assets/icons/shelfaniel.png",
   "quality": "SSR",
   "legends": true,
-  "princess": true
+  "princess": true,
+  "hasBuff": "princess"
 },{
   "name": "Silverwolf",
   "icon": "/assets/icons/silverwolf.png",
@@ -293,14 +346,16 @@
   "icon": "/assets/icons/sophia.png",
   "quality": "SR",
   "origins": true,
-  "princess": true
+  "princess": true,
+  "isHealer": true
 },{
   "name": "Tiaris",
   "icon": "/assets/icons/tiaris.png",
   "quality": "SSR",
   "protagonists": true,
   "origins": true,
-  "princess": true
+  "princess": true,
+  "isHealer": true
 },{
   "name": "Vargas",
   "icon": "/assets/icons/vargas.png",
@@ -318,5 +373,6 @@
   "icon": "/assets/icons/zerida.png",
   "quality": "SSR",
   "dark": true,
-  "meteor": true
+  "meteor": true,
+  "hasBuff": "meteor"
 }]
