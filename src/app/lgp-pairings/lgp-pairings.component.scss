@@ -4,6 +4,21 @@
  @include main-container();
 }
 
+.pairings__tower-selection{
+  display:inline-block;
+}
+
+.pairings__tower-icon{
+  display: inline-block;
+  height: 25px;
+  vertical-align: sub;
+  margin-right: 3px;
+  &.disabled{
+    filter: grayscale(100%);
+    opacity: 0.75;
+  }
+}
+
 .pairings__faction-icon{
   display: inline-block;
   height: 25px;

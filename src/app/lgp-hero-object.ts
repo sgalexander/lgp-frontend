@@ -20,5 +20,8 @@ export interface LgpHeroObject {
   princess?: boolean;
   protagonists?: boolean;
   glory?: boolean;
-  strategic?: boolean;  
+  strategic?: boolean;
+  isTank?: boolean;
+  isHealer?: boolean;
+  hasBuff?: string;
 }

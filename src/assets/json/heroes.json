@@ -289,7 +289,7 @@
   "quality": "SR",
   "glory": true,
   "protagonists": true,
-  "hasBuff": "progagonists"
+  "hasBuff": "protagonists"
 },{
   "name": "Narm",
   "icon": "/assets/icons/narm.png",

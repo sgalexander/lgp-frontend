@@ -5,16 +5,19 @@
     'hero-avatar--large' : size === 'large',
     'hero-avatar--disabled': showDisabled
   }">
-  <img [src]="hero.icon"
-  class="hero-avatar__icon" 
-  [ngClass]="{
-    'hero-avatar__icon--icondisabled' : showDisabled,
-    'hero-avatar__icon--ssr' : hero.quality == qualities.SSR,
-    'hero-avatar__icon--sr' : hero.quality == qualities.SR,
-    'hero-avatar__icon--r' : hero.quality == qualities.R,
-    'hero-avatar__icon--medium' : size === 'medium',
-    'hero-avatar__icon--large' : size === 'large'
-  }">
+  <div class="hero-avatar__avatar-wrapper">
+    <img [src]="hero.icon"
+    class="hero-avatar__icon" 
+    [ngClass]="{
+      'hero-avatar__icon--icondisabled' : showDisabled,
+      'hero-avatar__icon--ssr' : hero.quality == qualities.SSR,
+      'hero-avatar__icon--sr' : hero.quality == qualities.SR,
+      'hero-avatar__icon--r' : hero.quality == qualities.R,
+      'hero-avatar__icon--medium' : size === 'medium',
+      'hero-avatar__icon--large' : size === 'large'
+    }">
+    <img *ngIf="hero.hasBuff && hero.hasBuff === showBuffIcon" class="hero-avatar__faction-buff" [src]="'/assets/icons/factions/' + showBuffIcon +'.png'">
+  </div>
   <div class="hero-avatar__factions"
     *ngIf="showFactionIcons">
     <img *ngIf="hero.dark" class="hero-avatar__factionicon" src="/assets/icons/factions/dark.png" alt="Dark Reincarnation">

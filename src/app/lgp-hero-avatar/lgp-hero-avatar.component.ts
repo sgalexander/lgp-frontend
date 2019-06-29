@@ -9,10 +9,12 @@ import { LgpObjectQualities } from '../lgp-object-qualities';
 })
 export class LgpHeroAvatarComponent implements OnInit {
 
+
   @Input() hero: LgpHeroObject;
   @Input() showDisabled: boolean = true;
   @Input() showFactionIcons: boolean = true;
   @Input() size: string = 'medium';
+  @Input() showBuffIcon: string;
   qualities = LgpObjectQualities;
 
   constructor() { }

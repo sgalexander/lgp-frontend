@@ -1,22 +1,33 @@
 <div class="pairings">
+
+  <div *ngIf="factions">
+    <h3>Towers</h3>
+    <div class="pairings__tower-selection" *ngFor="let faction of factions | lgpFactionHasTower">
+      <img class="pairings__tower-icon" [src]="faction.icon" [ngClass]="{
+        'disabled': !isNotSelected(faction.key)
+      }" (click)="selectFaction(faction.key)">
+    </div>  
+  </div>
+  <hr>
   <div>
-    <button class="pairings__button" *ngIf="showUnavailable" (click)="showUnavailable = false"><fa name="eye-slash"></fa> Hide Unavailable Units</button>
-    <button class="pairings__button inactive" *ngIf="!showUnavailable" (click)="showUnavailable = true"><fa name="eye"></fa> Show Unavailable Units</button>
+    <button class="pairings__button" *ngIf="showUnavailable" (click)="showUnavailable = false"><fa name="eye-slash"></fa> Hide Unavailable</button>
+    <button class="pairings__button inactive" *ngIf="!showUnavailable" (click)="showUnavailable = true"><fa name="eye"></fa> Show Unavailable</button>
     <button class="pairings__button" (click)="resetAvailability()"><fa name="undo"></fa> Reset</button>
   </div>
-  <!-- <button class="pairings__button" (click)="copyTroops()"><fa name="copy"></fa> Copy</button> -->
+  <hr>
   <div *ngIf="myHeroes && heroes && factions">
-    <div *ngFor="let faction of factions">
+    <div *ngFor="let faction of shownFactions | lgpFactionHasTower">
       <h2 class="pairings__faction-name"><img class="pairings__faction-icon" [src]="faction.icon">{{faction.fullName}}</h2>
       <lgp-hero-avatar
         class="pairings__hero-object"
         [ngClass]="
           {'no-show': isUnavailable(hero) && !showUnavailable}
         "
-        *ngFor="let hero of heroes | lgpFaction:faction.key | lgpMyHero:myHeroes"
+        *ngFor="let hero of heroes | lgpFaction:faction.key : showAllHealers | lgpMyHero:myHeroes"
         (click)="toggleAvailability(hero)"
         [hero]="hero"
         [showFactionIcons]="false"
+        [showBuffIcon]="faction.key"
         [size]="'small'"
         [showDisabled]="isUnavailable(hero)"></lgp-hero-avatar>
     </div>

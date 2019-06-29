@@ -12,6 +12,7 @@ import { LgpFactionPipe } from './lgp-faction.pipe';
 import { LgpMyHeroPipe } from './lgp-my-hero.pipe';
 import { LgpInfoComponent } from './lgp-info/lgp-info.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { LgpFactionHasTowerPipe } from './lgp-faction-has-tower.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     LgpHeroAvatarComponent,
     LgpFactionPipe,
     LgpMyHeroPipe,
-    LgpInfoComponent
+    LgpInfoComponent,
+    LgpFactionHasTowerPipe
   ],
   imports: [
     BrowserModule,

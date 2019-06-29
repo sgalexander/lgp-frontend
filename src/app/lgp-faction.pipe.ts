@@ -6,11 +6,11 @@ import { LgpHeroObject } from './lgp-hero-object';
 })
 export class LgpFactionPipe implements PipeTransform {
 
-  transform(heroes: LgpHeroObject[], faction?: any): any {
+  transform(heroes: LgpHeroObject[], faction?: string, showAllHealers?: boolean): any {
     if (!heroes || !faction){
       return heroes;
     }
-    return heroes.filter(hero => hero[faction] === true);
+    return heroes.filter(hero => hero[faction] === true || hero['isHealer'] === showAllHealers);
   }
 
 }
