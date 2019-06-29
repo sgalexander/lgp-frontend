@@ -12,10 +12,13 @@
   display: block;
 }
 
-.hero-avatar__faction-buff {
+.hero-avatar__roles {
   position: absolute;
   top: 0;
   left: 5px;
+}
+
+.hero-avatar__role-icon {
   height: 20px;
   width: 20px;
 }

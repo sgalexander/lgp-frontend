@@ -16,7 +16,10 @@
       'hero-avatar__icon--medium' : size === 'medium',
       'hero-avatar__icon--large' : size === 'large'
     }">
-    <img *ngIf="hero.hasBuff && hero.hasBuff === showBuffIcon" class="hero-avatar__faction-buff" [src]="'/assets/icons/factions/' + showBuffIcon +'.png'">
+    <div class="hero-avatar__roles">
+        <img *ngIf="hero.hasBuff && hero.hasBuff === showBuffIcon" class="hero-avatar__role-icon" [src]="'/assets/icons/factions/' + showBuffIcon +'.png'">
+        <img *ngIf="hero.isHealer" class="hero-avatar__role-icon" src="/assets/icons/skills/heal.png">
+    </div>
   </div>
   <div class="hero-avatar__factions"
     *ngIf="showFactionIcons">

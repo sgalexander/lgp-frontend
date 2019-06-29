@@ -10,7 +10,11 @@ export class LgpFactionPipe implements PipeTransform {
     if (!heroes || !faction){
       return heroes;
     }
-    return heroes.filter(hero => hero[faction] === true || hero['isHealer'] === showAllHealers);
+    let filteredHeroes = heroes.filter(hero => hero[faction] === true);
+    let offFactionHealers = heroes.filter(hero => !hero[faction] && hero['isHealer'] === showAllHealers);
+    let combinedArray = filteredHeroes.concat(offFactionHealers);
+
+    return showAllHealers ? combinedArray : filteredHeroes;
   }
 
 }
