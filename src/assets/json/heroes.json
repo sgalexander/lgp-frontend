@@ -236,8 +236,14 @@
   "quality": "SSR",
   "empire": true,
   "strategic": true,
-  "isTank": true,
   "hasBuff": "empire"
+},{
+  "name": "Leonhardt",
+  "icon": "/assets/icons/leonhardt.png",
+  "quality": "SSR",
+  "empire": true,
+  "time": true,
+  "origins": true
 },{
   "name": "Lester",
   "icon": "/assets/icons/lester.png",
@@ -298,6 +304,13 @@
   "meteor": true,
   "princess": true
 },{
+  "name": "Olivier",
+  "icon": "/assets/icons/olivier.png",
+  "quality": "SR",
+  "empire": true,
+  "time": true,
+  "strategic": true
+},{
   "name": "Pierre",
   "icon": "/assets/icons/pierre.png",
   "quality": "R",
@@ -309,6 +322,13 @@
   "quality": "SSR",
   "legends": true,
   "protagonists": true
+},{
+  "name": "Renne",
+  "icon": "/assets/icons/renne.png",
+  "quality": "SSR",
+  "legends": true,
+  "dark": true,
+  "time": true
 },{
   "name": "Rohga",
   "icon": "/assets/icons/rohga.png",
