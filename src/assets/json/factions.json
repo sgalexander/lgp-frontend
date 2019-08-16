@@ -22,7 +22,7 @@
   "key": "legends",
   "fullName": "Yeless Legends",
   "icon": "/assets/icons/factions/legends.png",
-  "hasTower": false
+  "hasTower": true
 },{
   "key": "origins",
   "fullName": "Origins of Light",

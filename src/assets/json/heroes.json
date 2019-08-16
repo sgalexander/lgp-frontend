@@ -194,6 +194,12 @@
   "empire": true,
   "meteor": true
 },{
+  "name": "Lambda",
+  "icon": "/assets/icons/lambda.png",
+  "quality": "SSR",
+  "protagonists": true,
+  "legends": true
+},{
   "name": "Lana",
   "icon": "/assets/icons/lana.png",
   "quality": "SSR",
@@ -348,6 +354,14 @@
   "legends": true,
   "princess": true,
   "hasBuff": "princess"
+},{
+  "name": "Sigma",
+  "icon": "/assets/icons/sigma.png",
+  "quality": "SSR",
+  "protagonists": true,
+  "legends": true,
+  "meteor": true,
+  "hasBuff": "legends"
 },{
   "name": "Silverwolf",
   "icon": "/assets/icons/silverwolf.png",
