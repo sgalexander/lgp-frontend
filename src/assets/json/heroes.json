@@ -7,8 +7,9 @@
 },{
   "name": "Almeda",
   "icon": "/assets/icons/almeda.png",
-  "quality": "SR",
+  "quality": "SSR",
   "glory": true,
+  "mythical": true,
   "protagonists": true,
   "isHealer": true
 },{
@@ -43,6 +44,7 @@
   "quality": "SSR",
   "empire": true,
   "dark": true,
+  "mythical": true,
   "isTank": true,
   "hasBuff": "empire"
 },{
@@ -50,6 +52,7 @@
   "icon": "/assets/icons/bozel.png",
   "quality": "SSR",
   "dark": true,
+  "mythical": true,
   "hasBuff": "dark"
 },{
   "name": "Cherie",
@@ -78,7 +81,7 @@
   "icon": "/assets/icons/dios.png",
   "quality": "R",
   "origins": true,
-  "princess": true
+  "strategic": true
 },{
   "name": "Egbert",
   "icon": "/assets/icons/egbert.png",
@@ -130,10 +133,17 @@
 },{
   "name": "Grenier",
   "icon": "/assets/icons/grenier.png",
-  "quality": "SR",
+  "quality": "SSR",
   "glory": true,
   "isTank": true,
   "hasBuff": "glory"
+},{
+  "name": "Gizarof",
+  "icon": "/assets/icons/gizarof.png",
+  "quality": "SSR",
+  "legends": true,
+  "mythical": true,
+  "hasBuff": "mythical"
 },{
   "name": "Hein",
   "icon": "/assets/icons/hein.png",
@@ -152,6 +162,7 @@
   "icon": "/assets/icons/jessica.png",
   "quality": "R",
   "origins": true,
+  "mythical": true,
   "glory": true
 },{
   "name": "Joshua",
@@ -166,6 +177,7 @@
   "icon": "/assets/icons/jugler.png",
   "quality": "SSR",
   "origins": true,
+  "mythical": true,
   "isTank": true,
   "hasBuff": "origins"
 },{
@@ -198,6 +210,7 @@
   "icon": "/assets/icons/lambda.png",
   "quality": "SSR",
   "protagonists": true,
+  "mythical": true,
   "legends": true
 },{
   "name": "Lana",
@@ -298,7 +311,7 @@
 },{
   "name": "Matthew",
   "icon": "/assets/icons/matthew.png",
-  "quality": "SR",
+  "quality": "SSR",
   "glory": true,
   "protagonists": true,
   "hasBuff": "protagonists"
@@ -355,6 +368,13 @@
   "princess": true,
   "hasBuff": "princess"
 },{
+  "name": "Serena",
+  "icon": "/assets/icons/serena.png",
+  "quality": "SR",
+  "strategic": true,
+  "legends": true,
+  "isTank": true
+},{
   "name": "Sigma",
   "icon": "/assets/icons/sigma.png",
   "quality": "SSR",
@@ -380,6 +400,7 @@
   "icon": "/assets/icons/sophia.png",
   "quality": "SR",
   "origins": true,
+  "mythical": true,
   "princess": true,
   "isHealer": true
 },{
@@ -403,10 +424,18 @@
   "empire": true,
   "dark": true
 },{
+  "name": "Wiler",
+  "icon": "/assets/icons/Wiler.png",
+  "quality": "SSR",
+  "strategic": true,
+  "legends": true,
+  "isHealer": true
+},{
   "name": "Zerida",
   "icon": "/assets/icons/zerida.png",
   "quality": "SSR",
   "dark": true,
   "meteor": true,
+  "mythical": true,
   "hasBuff": "meteor"
 }]

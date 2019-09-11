@@ -24,6 +24,11 @@
   "icon": "/assets/icons/factions/legends.png",
   "hasTower": true
 },{
+  "key": "mythical",
+  "fullName": "Mythical Realm",
+  "icon": "/assets/icons/factions/mythical.png",
+  "hasTower": false
+},{
   "key": "origins",
   "fullName": "Origins of Light",
   "icon": "/assets/icons/factions/origins.png",
