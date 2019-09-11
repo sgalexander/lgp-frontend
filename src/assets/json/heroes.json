@@ -425,7 +425,7 @@
   "dark": true
 },{
   "name": "Wiler",
-  "icon": "/assets/icons/Wiler.png",
+  "icon": "/assets/icons/wiler.png",
   "quality": "SSR",
   "strategic": true,
   "legends": true,
