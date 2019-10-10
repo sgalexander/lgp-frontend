@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LgpMyAccountComponent } from './lgp-my-account/lgp-my-account.component';
-import { LgpHeroComponent } from './lgp-hero/lgp-hero.component';
-import { LgpPairingsComponent } from './lgp-pairings/lgp-pairings.component';
-import { LgpInfoComponent } from './lgp-info/lgp-info.component';
+import { LgpMyAccountComponent } from './pages/lgp-my-account/lgp-my-account.component';
+import { LgpHeroComponent } from './components/lgp-hero/lgp-hero.component';
+import { LgpPairingsComponent } from './pages/lgp-pairings/lgp-pairings.component';
+import { LgpInfoComponent } from './pages/lgp-info/lgp-info.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/info', pathMatch: 'full' },

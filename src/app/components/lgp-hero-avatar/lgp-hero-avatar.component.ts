@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { LgpHeroObject } from '../lgp-hero-object';
-import { LgpObjectQualities } from '../lgp-object-qualities';
+import { LgpHeroObject } from '../../models/lgp-hero-object';
+import { LgpObjectQualities } from '../../enums/lgp-object-qualities';
 
 @Component({
   selector: 'lgp-hero-avatar',

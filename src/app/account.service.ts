@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { LgpHeroObject } from './lgp-hero-object';
-import { Observable, of, forkJoin } from 'rxjs';
+import { LgpHeroObject } from './models/lgp-hero-object';
+import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http'
 
 @Injectable({

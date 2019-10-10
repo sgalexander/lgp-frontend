@@ -1,4 +1,4 @@
-import { LgpObjectQualities } from './lgp-object-qualities';
+import { LgpObjectQualities } from '../enums/lgp-object-qualities';
 import { LgpEquipment } from './lgp-equipment';
 
 export interface LgpHeroObject {

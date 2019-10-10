@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { LgpFactionObject } from './lgp-faction-object';
+import { LgpFactionObject } from '../models/lgp-faction-object';
 
 @Pipe({
   name: 'lgpFactionHasTower'

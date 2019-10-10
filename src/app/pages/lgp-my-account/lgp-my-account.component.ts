@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LgpHeroObject } from '../lgp-hero-object';
-import { AccountService } from '../account.service';
+import { LgpHeroObject } from '../../models/lgp-hero-object';
+import { AccountService } from '../../services/account.service';
 
 @Component({
   selector: 'lgp-my-account',

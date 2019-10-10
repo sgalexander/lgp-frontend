@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { LgpHeroObject } from './lgp-hero-object';
+import { LgpHeroObject } from '../models/lgp-hero-object';
 
 @Pipe({
   name: 'lgpFaction'

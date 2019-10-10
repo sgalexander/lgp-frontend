@@ -12,6 +12,8 @@
   <div>
     <button class="pairings__button" *ngIf="showUnavailable" (click)="showUnavailable = false"><fa name="eye-slash"></fa> Hide Unavailable</button>
     <button class="pairings__button inactive" *ngIf="!showUnavailable" (click)="showUnavailable = true"><fa name="eye"></fa> Show Unavailable</button>
+    <button class="pairings__button" *ngIf="showAllHealers" (click)="showAllHealers = false"><fa name="eye-slash"></fa> Hide Off-Faction Healers</button>
+    <button class="pairings__button inactive" *ngIf="!showAllHealers" (click)="showAllHealers = true"><fa name="eye"></fa> Show Off-Faction Healers</button>
     <button class="pairings__button" (click)="resetAvailability()"><fa name="undo"></fa> Reset</button>
   </div>
   <hr>

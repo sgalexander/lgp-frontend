@@ -1,8 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { AccountService } from '../account.service';
-import { LgpHeroObject } from '../lgp-hero-object';
+import { AccountService } from '../../services/account.service';
+import { LgpHeroObject } from '../../models/lgp-hero-object';
 import { forkJoin } from 'rxjs';
-import { LgpFactionObject } from '../lgp-faction-object';
+import { LgpFactionObject } from '../../models/lgp-faction-object';
 
 @Component({
   selector: 'lgp-pairings',
@@ -32,8 +32,8 @@ export class LgpPairingsComponent implements OnInit {
       this.accountService.getUnavailableHeroes()
     ).subscribe((res) => {
       this.myHeroes = res[0];
-      this.heroes = res[1];
-      this.factions = res[2];
+      this.heroes = res[1] as LgpHeroObject[];
+      this.factions = res[2] as LgpFactionObject[];
       let towers = localStorage.getItem('towers');
       if (towers) {
         this.availableTowers = JSON.parse(towers);

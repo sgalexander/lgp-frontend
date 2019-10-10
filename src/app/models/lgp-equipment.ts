@@ -1,5 +1,5 @@
-import { LgpStats } from './lgp-stats';
-import { LgpObjectQualities } from './lgp-object-qualities';
+import { LgpStats } from '../constants/lgp-stats';
+import { LgpObjectQualities } from '../enums/lgp-object-qualities';
 import { LgpEnchants } from './lgp-enchants';
 
 export class LgpEquipment {
