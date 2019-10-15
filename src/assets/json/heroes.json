@@ -129,7 +129,8 @@
   "name": "Gerold/Leyla",
   "icon": "/assets/icons/gerold_and_leyla.png",
   "quality": "SSR",
-  "origins": true
+  "origins": true,
+  "strategic": true
 },{
   "name": "Grenier",
   "icon": "/assets/icons/grenier.png",
@@ -141,7 +142,7 @@
   "name": "Gizarof",
   "icon": "/assets/icons/gizarof.png",
   "quality": "SSR",
-  "legends": true,
+  "dark": true,
   "mythical": true,
   "hasBuff": "mythical"
 },{
@@ -156,6 +157,14 @@
   "quality": "SR",
   "empire": true,
   "strategic": true,
+  "isHealer": true
+},{
+  "name": "Iris",
+  "icon": "/assets/icons/iris.png",
+  "quality": "SR",
+  "empire": true,
+  "princess": true,
+  "time": true,
   "isHealer": true
 },{
   "name": "Jessica",
@@ -355,6 +364,13 @@
   "empire": true,
   "meteor": true
 },{
+  "name": "Sakura",
+  "icon": "/assets/icons/sakura.png",
+  "quality": "SSR",
+  "empire": true,
+  "protagonist": true,
+  "time": true
+},{
   "name": "Scott",
   "icon": "/assets/icons/scott.png",
   "quality": "R",
@@ -403,6 +419,13 @@
   "mythical": true,
   "princess": true,
   "isHealer": true
+},{
+  "name": "Sumire",
+  "icon": "/assets/icons/sumire.png",
+  "quality": "SSR",
+  "empire": true,
+  "princess": true,
+  "time": true
 },{
   "name": "Tiaris",
   "icon": "/assets/icons/tiaris.png",
