@@ -13,6 +13,13 @@
   "protagonists": true,
   "isHealer": true
 },{
+  "name": "Alustriel",
+  "icon":"/assets/icons/alustriel.png",
+  "quality": "SSR",
+  "glory": true,
+  "origins": true,
+  "strategic": true
+},{
   "name": "Altemuller",
   "icon": "/assets/icons/altemuller.png",
   "quality": "SSR",
@@ -68,6 +75,13 @@
   "glory": true,
   "princess": true,
   "protagonists": true
+},{
+  "name": "Clarett",
+  "icon": "/assets/icons/clarett.png",
+  "quality": "SSR",
+  "legends": true,
+  "meteor": true,
+  "princess": true
 },{
   "name": "Dieharte",
   "icon": "/assets/icons/dieharte.png",
@@ -339,6 +353,12 @@
   "time": true,
   "strategic": true
 },{
+  "name": "Omega",
+  "icon": "/assets/icons/omega.png",
+  "quality": "SSR",
+  "dark": true,
+  "meteor": true
+},{
   "name": "Pierre",
   "icon": "/assets/icons/pierre.png",
   "quality": "R",
@@ -453,6 +473,13 @@
   "strategic": true,
   "legends": true,
   "isHealer": true
+},{
+  "name": "Yulia",
+  "icon": "/assets/icons/yulia.png",
+  "quality": "SSR",
+  "princess": true,
+  "glory": true,
+  "mythical": true
 },{
   "name": "Zerida",
   "icon": "/assets/icons/zerida.png",
