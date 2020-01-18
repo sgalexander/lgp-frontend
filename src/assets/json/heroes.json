@@ -218,6 +218,7 @@
   "icon": "/assets/icons/jugler.png",
   "quality": "SSR",
   "origins": true,
+  "meteor": true,
   "mythical": true,
   "isTank": true,
   "hasBuff": "origins"
