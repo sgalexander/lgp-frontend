@@ -35,6 +35,12 @@
   "isTank": true,
   "hasBuff": "strategic"
 },{
+  "name": "Angelica",
+  "icon": "/assets/icons/angelica.png",
+  "quality": "SR",
+  "glory": true,
+  "mystical": true
+},{
   "name": "Angelina",
   "icon": "/assets/icons/angelina.png",
   "quality": "SSR",
