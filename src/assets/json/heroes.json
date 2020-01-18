@@ -5,6 +5,12 @@
   "glory": true,
   "isTank": true
 },{
+  "name": "Alfred",
+  "icon": "/assets/icons/alfred.png",
+  "quality": "S",
+  "meteor": true,
+  "legends": true
+},{
   "name": "Almeda",
   "icon": "/assets/icons/almeda.png",
   "quality": "SSR",
@@ -28,24 +34,21 @@
   "strategic": true,
   "isTank": true,
   "hasBuff": "strategic"
-},
-{
+},{
   "name": "Angelina",
   "icon": "/assets/icons/angelina.png",
   "quality": "SSR",
   "princess": true,
   "legends": true,
   "meteor": true
-},
-{
+},{
   "name": "Anna",
   "icon": "/assets/icons/anna.png",
   "quality": "R",
   "empire": true,
   "princess": true,
   "isHealer": true
-},
-{
+},{
   "name": "Bernhardt",
   "icon": "/assets/icons/bernhardt.png",
   "quality": "SSR",
@@ -54,6 +57,14 @@
   "mythical": true,
   "isTank": true,
   "hasBuff": "empire"
+},{
+  "name": "Betty",
+  "icon": "/assets/icons/betty.png",
+  "quality": "SSR",
+  "empire": true,
+  "dark": true,
+  "glory": true,
+  "isTank": true
 },{
   "name": "Bozel",
   "icon": "/assets/icons/bozel.png",
@@ -111,6 +122,13 @@
   "glory": true,
   "protagonists": true,
   "hasBuff": "glory"
+},{
+  "name": "Emelia",
+  "icon": "/assets/icons/emelia.png",
+  "quality": "SSR",
+  "empire": true,
+  "princess": true,
+  "isTank": true
 },{
   "name": "Emerick",
   "icon": "/assets/icons/emerick.png",
@@ -371,6 +389,13 @@
   "legends": true,
   "protagonists": true
 },{
+  "name": "Rainforce",
+  "icon": "/assets/icons/rainforce.png",
+  "quality": "SSR",
+  "legends": true,
+  "strategic": true,
+  "mythical": true
+},{
   "name": "Renne",
   "icon": "/assets/icons/renne.png",
   "quality": "SSR",
@@ -473,6 +498,13 @@
   "strategic": true,
   "legends": true,
   "isHealer": true
+},{
+  "name": "Young_Jessica",
+  "icon": "/assets/icons/young_jessica.png",
+  "quality": "SSR",
+  "glory": true,
+  "origin": true,
+  "mythical": true
 },{
   "name": "Yulia",
   "icon": "/assets/icons/yulia.png",
