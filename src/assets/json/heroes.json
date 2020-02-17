@@ -39,7 +39,7 @@
   "icon": "/assets/icons/angelica.png",
   "quality": "SR",
   "glory": true,
-  "mystical": true
+  "mythical": true
 },{
   "name": "Angelina",
   "icon": "/assets/icons/angelina.png",
@@ -248,6 +248,13 @@
   "legends": true,
   "isHealer": true
 },{
+  "name": "Kurama",
+  "icon": "/assets/icons/kurama.png",
+  "quality": "SSR",
+  "strategic": true,
+  "time": true,
+  "legends": true
+},{
   "name": "Laird",
   "icon": "/assets/icons/laird.png",
   "quality": "R",
@@ -420,7 +427,7 @@
   "icon": "/assets/icons/sakura.png",
   "quality": "SSR",
   "empire": true,
-  "protagonist": true,
+  "protagonists": true,
   "time": true
 },{
   "name": "Scott",
@@ -519,6 +526,14 @@
   "princess": true,
   "glory": true,
   "mythical": true
+},{
+  "name": "Yusuke",
+  "icon": "/assets/icons/yusuke.png",
+  "quality": "SSR",
+  "time": true,
+  "mythical": true,
+  "protagonists": true,
+  "hasBuff": "time"
 },{
   "name": "Zerida",
   "icon": "/assets/icons/zerida.png",
